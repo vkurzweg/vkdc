@@ -56,15 +56,16 @@ export class Home extends React.Component {
         </MediaQuery>
         <MediaQuery maxWidth={767}>
           <NavMobile />
-          <Image cloudName="kurzweg" publicId="palmtrees" quality="auto" responsive style={{ width: '100%' }} />
+          <Image cloudName="kurzweg" publicId="cherryblossom_bwcrop" quality="auto" responsive style={{ width: '100%', marginTop: '12%' }} />
           <div style={{ padding: '2%' }}>
             <CopyCarousel />
           </div>
           <Grid />
           <IntroMobile />
+          <Image cloudName="kurzweg" publicId="dcnight" quality="auto" responsive style={{ width: '100%' }} />
           <DevMobile />
           <Intro2Mobile />
-          <Image cloudName="kurzweg" publicId="sunset" quality="auto" responsive style={{ width: '100%' }} />
+          <Image cloudName="kurzweg" publicId="dupont" quality="auto" responsive style={{ width: '100%' }} />
           <Bio
             toggleForm={this.toggleForm}
             isFormActive={this.state.isFormActive}
