@@ -16,7 +16,7 @@ export class Bio extends React.Component {
           </div>
           <div className="col-sm-6" style={{ marginTop: '3%', marginLeft: '3%', width: '100%', paddingBottom: '5%' }}>
             <p style={{ fontSize: '14px', textAlign: 'justify', marginRight: '10%', marginLeft: '10%', marginBottom: '3%' }}>Victoria Kurzweg is a designer and developer specializing in branding and content enhancement. She has worked with global brands including Marc Jacobs International and Waldorf Astoria, as well as startups in Silicon Beach.</p>
-            <p style={{ fontSize: '14px', textAlign: 'justify', marginRight: '10%', marginLeft: '10%', marginTop: '2%', marginBottom: '5%'}}>Born in New Orleans, Victoria is based in D.C. and has also lived in Austin and Los Angeles. She has a master's degree in history of international relations from the London School of Economics.</p>
+            <p style={{ fontSize: '14px', textAlign: 'justify', marginRight: '10%', marginLeft: '10%', marginTop: '2%', marginBottom: '5%'}}>Born in New Orleans, Victoria has lived in Los Angeles, Austin, and Washington, D.C. She has a master's degree in history of international relations from the London School of Economics.</p>
             <button onClick={this.props.toggleForm} style={{ textDecoration: 'none', backgroundColor: '#108EE9', color: '#212121', width: '10em', height: '3em', margin: '0 auto', border: 'none', textTransform: 'uppercase', letterSpacing: '2px', borderRadius: '2px' }}>Let's talk</button>
           </div>
         </div>

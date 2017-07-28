@@ -44,15 +44,11 @@ export class Home extends React.Component {
           <Grid />
           <Intro />
           <div className="third-image">
-          <Dev />
-          <Intro2 />
           </div>
-          <div className="second-image">
-            <Bio
-              toggleForm={this.toggleForm}
-              isFormActive={this.state.isFormActive}
-            />
-          </div>
+          <Bio
+            toggleForm={this.toggleForm}
+            isFormActive={this.state.isFormActive}
+          />
         </MediaQuery>
         <MediaQuery maxWidth={767}>
           <NavMobile />
@@ -63,9 +59,6 @@ export class Home extends React.Component {
           <Grid />
           <IntroMobile />
           <Image cloudName="kurzweg" publicId="dcnight" quality="auto" responsive style={{ width: '100%' }} />
-          <DevMobile />
-          <Intro2Mobile />
-          <Image cloudName="kurzweg" publicId="dupont" quality="auto" responsive style={{ width: '100%' }} />
           <Bio
             toggleForm={this.toggleForm}
             isFormActive={this.state.isFormActive}
@@ -78,3 +71,7 @@ export class Home extends React.Component {
 }
 
 export default Home;
+
+// <Dev />
+          // <DevMobile />
+
